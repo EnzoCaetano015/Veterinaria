@@ -71,6 +71,9 @@ palleta{
         font-size: 0.75rem;
     }
 }
+.carousel{
+    padding-top: 100px;
+}
 
 
 
@@ -94,6 +97,7 @@ palleta{
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
   }
-  .carousel{
-    padding-top: 100px;
-  }
+ /* .container{
+    display: flex;
+    justify-content: space-between;
+ } */

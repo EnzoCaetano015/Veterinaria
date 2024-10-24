@@ -1,3 +1,6 @@
+<?php
+    include 'PHP/conecta.php'
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -13,9 +13,9 @@
                 <span>Veterinária</span>
             
             <nav>
-                <a href="login.html">Home</a>
-                <a href="servicos.html">Serviços</a>
-                <a href="contato.html">Contato</a>
+                <a href="index.php">Home</a>
+                <a href="servicos.php">Serviços</a>
+                <a href="contato.php">Contato</a>
                 <a href="contato.html">Consulta</a>
                 <button>Minha Conta</button>
             </nav>

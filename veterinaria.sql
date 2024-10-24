@@ -66,7 +66,7 @@ CREATE TABLE `consulta` (
 --
 
 CREATE TABLE `dono` (
-  `id_dono` int(11) NOT NULL,
+  `id_dono` int(11) AUTO_INCREMENT NOT NULL,
   `nome` varchar(255) DEFAULT NULL,
   `CPF` varchar(15) DEFAULT NULL,
   `RG` varchar(15) DEFAULT NULL,
@@ -87,7 +87,7 @@ CREATE TABLE `dono` (
 --
 
 CREATE TABLE `ficha` (
-  `id_diag` int(11) NOT NULL,
+  `id_diag` int(11) AUTO_INCREMENT NOT NULL,
   `exames` varchar(255) DEFAULT NULL,
   `retorno` bit(1) DEFAULT NULL,
   `diagnostico` varchar(255) DEFAULT NULL,
@@ -104,7 +104,7 @@ CREATE TABLE `ficha` (
 --
 
 CREATE TABLE `veterinário` (
-  `id_veterinario` int(11) NOT NULL,
+  `id_veterinario` int(11) AUTO_INCREMENT NOT NULL,
   `nome` varchar(255) DEFAULT NULL,
   `RG` varchar(255) DEFAULT NULL,
   `CPF` varchar(255) DEFAULT NULL,

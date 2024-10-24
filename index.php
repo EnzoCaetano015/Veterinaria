@@ -1,3 +1,6 @@
+<?php
+    include 'PHP/conecta.php'
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,14 +10,6 @@
     <link rel="stylesheet" href="css/style.css">
     <title>ProPet</title>
 </head>
-<?php
-    include 'PHP/conecta.php'
-
-    session_start()
-
-    echo $_SESSION['nome'];
-?>
-
 <body>
 <header class="header">
             
